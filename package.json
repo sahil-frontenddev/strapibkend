@@ -1,5 +1,16 @@
 {
-  "name": "smart-social-bacckend",
+  "dependencies": {
+    "@strapi/plugin-graphql": "^4.0.5",
+    "@strapi/plugin-i18n": "4.1.2",
+    "@strapi/plugin-users-permissions": "4.1.2",
+    "@strapi/strapi": "4.1.2",
+    "fs-extra": "^10.0.0",
+    "lodash.set": "^4.3.2",
+    "mime-types": "^2.1.27",
+    "pg": "^8.7.3",
+    "pg-connection-string": "^2.5.0"
+  },
+  "name": "strapibkend",
   "private": true,
   "version": "0.1.0",
   "description": "A Strapi application",
@@ -10,17 +21,12 @@
     "strapi": "strapi"
   },
   "devDependencies": {},
-  "dependencies": {
-    "@strapi/strapi": "4.1.2",
-    "@strapi/plugin-users-permissions": "4.1.2",
-    "@strapi/plugin-i18n": "4.1.2",
-    "sqlite3": "5.0.2"
-  },
   "author": {
     "name": "A Strapi developer"
   },
   "strapi": {
-    "uuid": "c14de69f-e85d-40d4-bf42-de3d9f478b96"
+    "uuid": "8ac3d61d-0521-4c59-80d4-bea5a3e8d965",
+    "template": "blog"
   },
   "engines": {
     "node": ">=12.x.x <=16.x.x",
